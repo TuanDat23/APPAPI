@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">Thông Báo</string> <!-- Tên ứng dụng -->
+=======
+    <string name="app_name">appapi</string>
+>>>>>>> 72dcb02832af2e83e1025972998d4d91b3c8cc5d
 </resources>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -18,3 +19,52 @@
         android:layout_height="wrap_content"
         android:text="Lấy Last ID" />
 </LinearLayout>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvLastId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID cuối: -"
+            android:textSize="18sp"
+            android:paddingBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnGetLastId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LẤY ID CUỐI"/>
+
+        <TextView
+            android:id="@+id/tvMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tin nhắn: -"
+            android:textSize="18sp"
+            android:paddingTop="20dp"/>
+
+        <Button
+            android:id="@+id/btnGetNextId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LẤY TIN MỚI"/>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+>>>>>>> 72dcb02832af2e83e1025972998d4d91b3c8cc5d

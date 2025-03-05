@@ -1,4 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+<<<<<<< HEAD
     <!-- Theme cơ bản cho cả sáng và tối -->
     <style name="Base.Theme.App" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="android:statusBarColor">@android:color/transparent</item>
@@ -10,5 +11,11 @@
         <item name="colorPrimary">@color/my_dark_primary</item> <!-- Màu chính cho theme tối -->
         <item name="android:windowBackground">@color/my_dark_background</item> <!-- Nền tối -->
         <item name="colorAccent">@color/colorAccent</item> <!-- Màu bổ sung -->
+=======
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Appapi" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+>>>>>>> 72dcb02832af2e83e1025972998d4d91b3c8cc5d
     </style>
 </resources>

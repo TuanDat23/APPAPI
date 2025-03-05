@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 <resources>
     <color name="my_light_primary">#3F51B5</color> <!-- Màu chính cho theme sáng -->
     <color name="my_dark_primary">#303F9F</color>  <!-- Màu chính cho theme tối -->
     <color name="my_light_background">#FFFFFF</color> <!-- Nền sáng -->
     <color name="my_dark_background">#121212</color>  <!-- Nền tối -->
     <color name="colorAccent">#FF4081</color> <!-- Màu bổ sung -->
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+>>>>>>> 72dcb02832af2e83e1025972998d4d91b3c8cc5d
 </resources>
