@@ -1,0 +1,7 @@
+<resources>
+    <color name="my_light_primary">#3F51B5</color> <!-- Màu chính cho theme sáng -->
+    <color name="my_dark_primary">#303F9F</color>  <!-- Màu chính cho theme tối -->
+    <color name="my_light_background">#FFFFFF</color> <!-- Nền sáng -->
+    <color name="my_dark_background">#121212</color>  <!-- Nền tối -->
+    <color name="colorAccent">#FF4081</color> <!-- Màu bổ sung -->
+</resources>

@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Theme cơ bản cho cả sáng và tối -->
+    <style name="Base.Theme.App" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Theme tùy chỉnh cho chế độ sáng -->
+    <style name="AppTheme" parent="Base.Theme.App">
+        <item name="colorPrimary">@color/my_light_primary</item> <!-- Màu chính cho theme sáng -->
+        <item name="android:windowBackground">@color/my_light_background</item> <!-- Nền sáng -->
+        <item name="colorAccent">@color/colorAccent</item> <!-- Màu bổ sung -->
+    </style>
+</resources>
